@@ -76,7 +76,7 @@ namespace lab6._3
             return new Quaternion(conjugate.W / magnitudeSquared, conjugate.X / magnitudeSquared, conjugate.Y / magnitudeSquared, conjugate.Z / magnitudeSquared);
         }
 
-        // Метод для конвертації кватерніона в матрицю обертання
+        // Метод для конвертації кватерніона в матрицю обертанн
         public double[,] ToRotationMatrix()
         {
             double[,] matrix = new double[3, 3];
